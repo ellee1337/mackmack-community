@@ -199,3 +199,18 @@ main {
   0%, 100% { opacity: 0; }
   50% { opacity: 1; }
 }
+
+.view-counter i {
+  font-size: 18px; /* Adjust icon size */
+  margin-right: 5px; /* Space between icon and view count */
+  color: #FFD700; /* Gold color for the icon */
+}
+
+.view-counter {
+  font-family: Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+}
