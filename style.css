@@ -204,6 +204,7 @@ main {
   font-size: 18px; /* Adjust icon size */
   margin-right: 5px; /* Space between icon and view count */
   color: #FFD700; /* Gold color for the icon */
+  
 }
 
 .view-counter {
