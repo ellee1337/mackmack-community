@@ -12,7 +12,6 @@
   <!-- Background Video -->
   <video autoplay muted loop id="bg-video">
     <source src="mck.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
   </video>
 
   <div class="page-wrapper">
@@ -64,18 +63,18 @@
 
   <script>
     const songs = [
+      { file: '8.mp3', title: 'Hev Abi - Walang Makapa' },
       { file: '1.mp3', title: 'Hev Abi - Walang Alam' },
       { file: '2.mp3', title: 'Burgis - Hev Abi ft. Flow G' },
       { file: '3.mp3', title: 'DEMI - Pakundangan ft. Hev Abi' },
       { file: '4.mp3', title: 'gins - BABAERO ft. Hev Abi' },
       { file: '5.mp3', title: 'Hev Abi - Billie Jean' },
       { file: '6.mp3', title: 'Hev Abi - KAGABI NG KAGABI' },
-      { file: '7.mp3', title: 'Hev Abi - Lil Kasalanan Shortie' },
-      { file: '8.mp3', title: 'Hev Abi - Walang Makapa' }
+      { file: '7.mp3', title: 'Hev Abi - Lil Kasalanan Shortie' }
 
     ];
 
-    let currentSong = 7;
+    let currentSong = 0;
     const audio = document.getElementById('bg-music');
 
     function loadSong(index) {
