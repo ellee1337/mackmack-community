@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #888888;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content at the top */
+    height: 100vh;  /* Take full height of the viewport */
+    overflow: hidden;  /* Prevent scrolling */
+}
+
+/* Page Header */
+h1 {
+    margin-top: 20px;
+    font-size: 2.5em;  /* Increase header size */
+    text-align: center;
+    color: #FF4655;
+    margin-bottom: 20px;
+}
+
+/* Clips Container */
+.clips-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;  /* Increase gap between clips */
+    flex-wrap: wrap;
+    margin-top: 40px;
+    max-width: 100%;  /* Ensure the container doesn't overflow */
+    overflow-y: auto;  /* Allow vertical scrolling if necessary */
+    padding: 0 10px; /* Add padding for better responsiveness */
+    max-height: calc(100vh - 150px);  /* Restrict height to fit content */
+}
+
+/* Individual Clip */
+.clip {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;  /* Add padding inside the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 450px;  /* Increased width for clips */
+    margin-bottom: 40px;  /* Increased space between rows */
+}
+
+/* Add to Highlights Button */
+.add-to-highlights {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #FF4655;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.add-to-highlights:hover {
+    background-color: #d0414f;
+}
+
+/* Video Embed */
+iframe {
+    width: 100%;  /* Make the video responsive */
+    height: 600px;  /* Set a fixed height for the TikTok videos */
+    max-width: 100%;  /* Allow the video to scale with smaller screens */
+    border-radius: 10px;  /* Rounded corners for the iframe */
+}
+
+.home-button-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 1800px;
+}
+
+.home-button {
+    text-decoration: none;
+    background-color: #FF4655;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 1.0em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: #d0414f;
+}
