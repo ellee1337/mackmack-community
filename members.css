@@ -71,7 +71,7 @@ body {
 }
 
 .social-icons a {
-    color: rgb(60, 114, 185);
+    color: rgb(247, 247, 248);
     font-size: 20px;
     transition: color 0.3s ease, transform 0.2s ease;
 }
